@@ -1,0 +1,129 @@
+
+h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(45deg, #ff7700a8, #6e6d6d83, #ff7700cd);
+}
+
+.calculator-container {
+    margin: 2.5px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    align-self: center;
+    width: 25%;
+    min-height: 350px;
+    max-height: 650px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    background-color: #4d463976;
+    grid-template-rows: 30% 14% 14% 14% 14% 14% ; 
+}
+
+.top-row {
+    align-self: center;
+    background-color: white;
+    width: 23vw;
+    height: 95%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+    font-size: 250%;
+    font-weight: 400;
+    color: #000000;
+
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.third-row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.fourth-row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.fifth-row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.sixth-row {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+
+.input-field {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid #4d463976;
+}
+button:hover {
+    border-radius: 5px;
+    border: 1px solid #4e4e4e76;
+    box-shadow: 0.5px black;
+    background-color: #212121;
+    color: white;
+}
+
+.numbers {
+    background-color: rgb(60, 60, 60);
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.operator {
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#equals {
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+#equals:hover {
+    border-radius: 5px;
+    border: 1px solid #4e4e4e76;
+    box-shadow: 0.5px black;
+    background-color: #212121;
+    color: white;
+}
+
+.edit {
+    background-color: #777777;
+    font-weight: 500;
+    font-size: larger;
+}
